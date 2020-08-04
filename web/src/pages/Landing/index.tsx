@@ -16,25 +16,25 @@ function Lading() {
             <div id="page-landing-content" className="container">
                 <div className="logo-container">
                     <img src={logoImg} alt="Proffy"/>
-                    <h2>Sua plataforma de estudos online</h2>
+                    <h2>Your plataform of studies online</h2>
                 </div>
 
-                <img src={landingImg} alt="Plataforma de estudos" className="hero-image"/>
+                <img src={landingImg} alt="Studies platform" className="hero-image"/>
 
                 <div className="buttons-container">
                     <Link to="/study" className="study">
-                        <img src={studyIcon} alt="Estudar"/>
-                        Estudar
+                        <img src={studyIcon} alt="Study"/>
+                        Study
                     </Link>
                     
                     <Link to="/give-classes" className="give-classes">
-                        <img src={giveClassesIcon} alt="Dar aulas"/>
-                        Estudar
+                        <img src={giveClassesIcon} alt="Teach"/>
+                        Teach
                     </Link>
                 </div>
                 
                 <span className="total-connections">
-                    Total de 200 conexões já realizadas <img src={purpleHeartIcon} alt="Coração roxo"/>
+                    Total of 200 access already done. <img src={purpleHeartIcon} alt="Purple heart"/>
                 </span>
             </div>
         </div>

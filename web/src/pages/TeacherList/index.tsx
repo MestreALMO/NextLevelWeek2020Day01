@@ -8,20 +8,20 @@ import TeacherItem from '../../components/TeacherItem';
 function TeacherList() {
     return(
         <div id="page-teacher-list" className="container">
-            <PageHeader title="Estes são os proffys disponíveis.">
+            <PageHeader title="Those are the available teachers.">
                 <form id="search-teachers">
                     <div className="input-block">
-                        <label htmlFor="subject">Matéria</label>
+                        <label htmlFor="subject">Discipline</label>
                         <input type="text" id="subject"/>
                     </div>
 
                     <div className="input-block">
-                        <label htmlFor="week_day">Dia da semana</label>
+                        <label htmlFor="week_day">Day of the week</label>
                         <input type="text" id="week_day"/>
                     </div>
 
                     <div className="input-block">
-                        <label htmlFor="time">Hora</label>
+                        <label htmlFor="time">Hour</label>
                         <input type="text" id="time"/>
                     </div>
                 </form>

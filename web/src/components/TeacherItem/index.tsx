@@ -27,7 +27,7 @@ function TeacherItem() {
                 </p>
                 <button type="button">
                     <img src={whatsappIcon} alt="Whatsapp"/>
-                    Entrar em contato
+                    Contact
                 </button>
             </footer>
         </article>
